@@ -1,0 +1,47 @@
+a=[4,"kathyayani",7,8,9,3] #arrays
+for i in range(5):
+    print(a[i])
+    
+    
+print(list(range(5)))
+
+#single variable means stops the number there range(starting,ending-1)
+#2 variable means(start,stop)
+print(list(range(2,5)))   #range(starting,ending-1)
+
+print(list(range(2,6,2))) #last one how many numbers skip
+
+#start ,where to stop ,skip
+
+
+#for loop
+list=[1,5,6]
+
+for i in list:
+    print("macha")
+    print(i)
+print("mad")    
+print("**************************************")
+
+print("****************************No of 1s in an array*************************************")
+li=[1,2,3,4,5,7,9,2,1,1,14,6,1]
+ans=0
+for i in li:
+    
+    #print(i)
+    if(i==1):
+        ans=ans+1
+print(ans)
+print("***********************")
+li=[4,8,9,2]
+for i in range(2,8):
+    print(li[i])
+
+names=["kathyayani","ram","sunadha","varshith"]
+for i in names:
+   print(i)
+#but when we use names
+
+for i in range(4):
+    print(names[i])
+Summary: Revise list and for loops in python 
